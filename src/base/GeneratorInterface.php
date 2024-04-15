@@ -1,13 +1,13 @@
 <?php
 /**
- * Autocomplete plugin for Craft CMS 3.x
+ * Autocomplete module for Craft CMS
  *
  * Provides Twig template IDE autocomplete of Craft CMS & plugin variables
  *
  * @link      https://nystudio107.com
  * @link      https://putyourlightson.com
- * @copyright Copyright (c) 2021 nystudio107
- * @copyright Copyright (c) 2021 PutYourLightsOn
+ * @copyright Copyright (c) nystudio107
+ * @copyright Copyright (c) PutYourLightsOn
  */
 
 namespace nystudio107\autocomplete\base;
@@ -22,9 +22,9 @@ interface GeneratorInterface
     // Constants
     // =========================================================================
 
-    const TEMPLATE_EXTENSION = '.php';
-    const STUBS_EXTENSION = '.php.stub';
-    const STUBS_DIR = DIRECTORY_SEPARATOR . 'stubs';
+    public const TEMPLATE_EXTENSION = '.php';
+    public const STUBS_EXTENSION = '.php.stub';
+    public const STUBS_DIR = DIRECTORY_SEPARATOR . 'stubs';
 
     // Public Static Methods
     // =========================================================================
