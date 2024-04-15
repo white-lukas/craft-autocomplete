@@ -2,10 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
-## 1.12.1 - 2024.01.30
+## 1.12.1 - 2024.04.15
 ### Added
+* Stable release for Craft CMS 5
 * Add `phpstan` and `ecs` code linting
 * Add `code-analysis.yaml` GitHub action
+* Add `create-release.yml` for automated released
 
 ### Changed
 * PHPstan code cleanup
