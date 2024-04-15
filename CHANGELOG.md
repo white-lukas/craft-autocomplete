@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 * Stable release for Craft CMS 5
 * Add `phpstan` and `ecs` code linting
 * Add `code-analysis.yaml` GitHub action
-* Add `create-release.yml` for automated released
+* Add `create-release.yml` for automated releases
 
 ### Changed
 * PHPstan code cleanup
